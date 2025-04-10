@@ -12,7 +12,7 @@ public class MegaBytesConverter {
             System.out.println("Invalid Value");
             return;
         }
-//       formulae for the 1 mb = 1024 kb
+///        formulae for the 1 mb = 1024 kb
         int quotient = input / 1024;
         int remainder = input % 1024;
         System.out.print(input+" KB" + " = " + quotient + " MB and " + remainder + " KB" );
